@@ -9,7 +9,14 @@ author:
 icon: database
 tags:
   - proxmox
-  - stockage
-  - drive
-  - rclone
+  - subscription
+  - key
 ---
+
+https://docs.pressynou.ch/img/tuto/docs/subscription.png
+
+On ouvre le fichier qui fait que la pop-up s'affiche:
+
+`nano /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js`
+`if (data.status !== 'Active') {`
+`if (data.status == 'Active') {`

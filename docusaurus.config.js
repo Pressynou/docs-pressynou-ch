@@ -49,6 +49,16 @@ const config = {
             position: 'left',
             label: 'Tuto',
           },
+          {
+            href: 'https://pressynou.ch',
+            label: 'Pressynou.ch',
+            position: 'right',
+          },
+          {
+            href: 'https://blog.pressynou.ch',
+            label: 'Blog',
+            position: 'right',
+          },
         ],
       },
       footer: {

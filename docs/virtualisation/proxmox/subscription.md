@@ -8,7 +8,10 @@ tags:
   - key
 ---
 
-https://docs.pressynou.ch/img/docs/subscription.png
+
+![Promox subscription](https://docs.pressynou.ch/img/docs/subscription.png)
+
+
 
 On ouvre le fichier qui fait que la pop-up s'affiche:
 

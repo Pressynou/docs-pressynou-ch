@@ -1,7 +1,7 @@
 ---
-title: "Faire un disque de backups proxmox avec un drive monté sur rclone"
-description: "Faire un disque de backups proxmox avec un drive monté sur rclone"
-lead: "Faire un disque de backups proxmox avec un drive monté sur rclone"
+title: "Faire un disque de backups proxmox avec un drive monté sur rclone 💾"
+description: "Faire un disque de backups proxmox avec un drive monté sur rclone"💾
+lead: "Faire un disque de backups proxmox avec un drive monté sur rclone 💾"
 date: 2020-10-06T08:49:31+00:00
 author:
   name: Pressynou

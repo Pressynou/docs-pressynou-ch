@@ -37,7 +37,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Pressynou - Docs',
         logo: {
           alt: 'Pressynou Logo',
           src: 'img/favicon.png',

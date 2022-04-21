@@ -1,15 +1,10 @@
 ---
 title: "PCI(e) passthrough"
 description: "Komment faire PCI(e) passthrough sur ESXi"
-date: 2020-10-06T08:49:31+00:00
-author:
-  name: Pressynou
-  avatar: https://cdn.discordapp.com/attachments/945027218155929703/945713566214914138/profilephoto.jpg
 tags:
   - esxi
   - gpu
   - passtrough
-icon: cpu
 ---
 
 

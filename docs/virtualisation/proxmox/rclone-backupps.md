@@ -13,7 +13,6 @@ tags:
   - drive
   - rclone
 ---
-💾
 
 ## Utilisation d'un drive en disque de backup sur un PVE
 

@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 16.x
           cache: yarn
+          cache-dependency-path: ./node-app/yarn.lock
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -28,7 +29,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           # Build output to publish to the `gh-pages` branch:
           publish_dir: ./build
           # The following lines assign commit authorship to the official

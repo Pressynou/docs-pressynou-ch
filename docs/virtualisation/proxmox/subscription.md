@@ -8,7 +8,7 @@ tags:
   - key
 ---
 
-https://docs.pressynou.ch/img/tuto/docs/subscription.png
+https://docs.pressynou.ch/img/docs/subscription.png
 
 On ouvre le fichier qui fait que la pop-up s'affiche:
 

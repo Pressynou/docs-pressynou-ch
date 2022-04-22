@@ -10,25 +10,27 @@ tags:
 ---
 
 ## Utilisation d'un drive en disque de backup sur un PVE
-<br>
+
 
 ![Promox](https://docs.pressynou.ch/img/docs/rclone-backups/1.png)
 
 # Installation et configuration Rclone
 
 Update des packages
-`apt update`
+
+`apt update` 
 
 On install rclone
-`apt install rclone`
+
+`apt install rclone`  
 
 On configuré rclone
-`rclone config`
+
+`rclone config`  
 
 [Tuto pour configuré rclone](https://docs.pressynou.ch/docs/outils/rclone)
 
-
-# TRUCH MUCHE SLEWES I LAY MOCH
+### 
 
 
 `mkdir /mnt/backups`  

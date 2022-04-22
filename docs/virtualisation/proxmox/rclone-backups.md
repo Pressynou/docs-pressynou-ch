@@ -16,17 +16,17 @@ tags:
 
 # Installation et configuration Rclone
 
-Update des packages <br>
+Update des packages
 `apt update`
 
-On install rclone <br>
+On install rclone
 `apt install rclone`
 
-On configuré rclone <br>
+On configuré rclone
 `rclone config`
 
 [Tuto pour configuré rclone](https://docs.pressynou.ch/docs/outils/rclone)
-<br>
+
 
 # TRUCH MUCHE SLEWES I LAY MOCH
 

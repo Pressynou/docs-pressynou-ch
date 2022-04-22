@@ -23,3 +23,4 @@ On cherche la ligne suivante:
 Que l'on remplace part:
 `if (data.status == 'Active') {`
 
+Et voilà, proxmox ne nous embêtera pas ^^

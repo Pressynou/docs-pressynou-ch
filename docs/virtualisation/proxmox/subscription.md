@@ -5,7 +5,7 @@ lead: "🗝️ Désactiver You do not have valid subscription"
 tags:
   - proxmox
   - subscription
-  - key
+  - keys
 ---
 
 Quand on installe Proxmox en communautaire, à chaque connexion, ce message s'affiche.

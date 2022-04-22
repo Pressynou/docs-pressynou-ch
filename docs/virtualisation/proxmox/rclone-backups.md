@@ -24,7 +24,9 @@ Update des packages
 On install rclone
 `apt install rclone`  
 
-`rclone config`
+On configuré rclone
+`rclone config` 
+(Tuto pour configuré rclone)[https://docs.pressynou.ch/docs/outils/rclone]
 
 ### 
 

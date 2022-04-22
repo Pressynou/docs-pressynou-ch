@@ -30,12 +30,15 @@ On configuré rclone
 
 [Tuto pour configuré rclone](https://docs.pressynou.ch/docs/outils/rclone)
 
-### 
+# Configuration du service rclone
 
-
+On crée vers où sera monté le drive
 `mkdir /mnt/backups`  
-`rclone mount --vfs-cache-mode writes nomdudrive:emplacment/que/tu/veux/sur/le/drive /mnt/backups`  
 
+Voici la commande qui permet de monté le drive
+`rclone mount --vfs-cache-mode writes nomdudrive: /mnt/backups`  
+
+On édit le service du drive
 `nano /etc/systemd/system/drive.service`  
 
 
@@ -57,3 +60,17 @@ On démarre le service rclone:
 
 On fait en sorte qu'il démarre automatiquement à chaque redémarrage:
 `systemctl enable drive.service` 
+
+On regarde si tout marche
+`systemctl status drive.service`
+
+# Ajout du drive sur proxmox
+
+![Promox](https://docs.pressynou.ch/img/docs/rclone-backups/2.png)
+
+![Promox](https://docs.pressynou.ch/img/docs/rclone-backups/3.png)
+
+
+Et voilà, drive monté, on peux maintenant backup sur le drive. *Attention, il va y avoir du cache le temps de l'envoie, et faite gaffe au limite d'envoie des services*
+
+![Promox](https://docs.pressynou.ch/img/docs/rclone-backups/4.png)

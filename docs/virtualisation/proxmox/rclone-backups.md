@@ -17,13 +17,13 @@ tags:
 # Installation et configuration Rclone
 
 Update des packages <br>
-`apt update` 
+`apt update`
 
 On install rclone <br>
-`apt install rclone`  
+`apt install rclone`
 
 On configuré rclone <br>
-`rclone config`  
+`rclone config`
 
 [Tuto pour configuré rclone](https://docs.pressynou.ch/docs/outils/rclone)
 <br>
